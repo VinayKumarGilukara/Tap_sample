@@ -1,0 +1,74 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <style name="AppBaseDarkTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+            <item name="android:homeAsUpIndicator">@drawable/ic_opr_logo</item>
+            
+
+        -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseDarkTheme">
+        // All customizations that are NOT specific to a particular API-level can go here.
+        <item name="android:actionBarSize">@dimen/app_actionbar_height</item>
+
+        <item name="android:editTextStyle">@style/App_EditTextStyle</item>
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:windowBackground">@color/text_color_black</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="colorControlNormal">@color/text_color_white</item>
+
+
+    </style>
+
+    <style name="App_EditTextStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">
+        <item name="android:textColor">@color/text_color_white</item>
+
+    </style>
+
+    <style name="CustomWidget.MaterialComponents.CompoundButton.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/CustomCompoundButton_Switch</item>
+    </style>
+
+    <style name="CustomCompoundButton_Switch">
+        <item name="colorSurface">@color/colorAccent</item>
+        <item name="colorOnSurface">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/counts_color_green</item>
+
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+
+    <style name="MyAlertDialogStyle" parent="Theme.MaterialComponents.Light.Dialog">
+        <!-- Used for the buttons -->
+        <!-- Used for the title and text -->
+        <item name="colorPrimary">@color/text_color_black</item>
+        <!-- Used for the background -->
+      <item name="titleTextColor">@color/text_color_black</item>
+
+    </style>
+
+    <!--<style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>-->
+
+
+</resources>

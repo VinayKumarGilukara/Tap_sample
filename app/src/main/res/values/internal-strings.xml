@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="db_name">metrotap.db</string>
+    <string name="criminal_db_name">tapcriminal.db</string>
+
+    <!-- PREFERENCES -->
+    <string name="prefs_gcm_id">GCM_REG_ID</string>
+    <string name="prefs_encrypt_secret_key">ENCRYPT_SECRET_KEY</string>
+    <string name="prefs_secret_key">SECRET_KEY</string>
+    <string name="prefs_firstime">FIRST_TIME</string>
+    <string name="prefs_firstime_registratipon">FIRST_TIME_REGISTRATION</string>
+    <string name="prefs_activation">ACTIVATION_MESSAGE</string>
+    <string name="prefs_device_status_inserver">SERVER_STATUS</string>
+    <string name="prefs_server_response">SERVER_RSPONSE</string>
+    <string name="prefs_api_key">API_KEY</string>
+    <string name="prefs_db_version">DB_VERSION</string>
+    <string name="prefs_db_size">DB_SIZE</string>
+    <string name="prefs_zip_size">ZIP_SIZE</string>
+    <string name="prefs_db_url">DB_URL</string>
+    <string name="prefs_user_name">LOGIN_USER</string>
+    <string name="prefs_user_id">LOGIN_ID</string>
+    <string name="prefs_user_first_name">LOGIN_FIRST_NAME</string>
+    <string name="prefs_user_last_name">LOGIN_LAST_NAME</string>
+    <string name="prefs_user_group_name">LOGIN_GROUP_NAME</string>
+    <string name="prefs_last_communication">LAST_COMMUNICATION</string>
+    <string name="prefs_last_uploaded">LAST_UPLOADED</string>
+    <string name="prefs_route">ROUTE</string>
+    <string name="prefs_stop">SELECTED_STOP</string>
+    <string name="prefs_stop_name">SELECTED_STOP_NAME</string>
+    <string name="prefs_key_version">KEY_VERSION</string>
+    <string name="prefs_Wipe_time">WIPE_TIME</string>
+    <string name="prefs_delete_key_time">DELETE_KEY_TIME</string>
+    <string name="prefs_upload_transcations">UPLOAD_TRANSCATIONS</string>
+    <string name="prefs_auto_update">AUTO_UPDATE_DB</string>
+    <string name="prefs_auto_logout">AUTO_LOGOUT_TIME</string>
+    <string name="prefs_status_time">STATUS_TIME</string>
+    <string name="pref_count_green">GREEN</string>
+    <string name="pref_count_yellow">YELLOW</string>
+    <string name="pref_count_red">RED</string>
+    <string name="pref_count_redundant">REDUNDANT</string>
+    <string name="pref_count_conversion">CONVERSION</string>
+    <string name="pref_count_date">COUNT_DATE</string>
+    <string name="prefs_Criminal_db_version">CRIMINAL_DB_VERSION</string>
+    <string name="prefs_Criminal_db_size">CRIMINAL_DB_SIZE</string>
+    <string name="prefs_Criminal_zip_size">CRIMINAL_ZIP_SIZE</string>
+    <string name="prefs_Criminal_db_url">CRIMINAL_DB_URL</string>
+    <string name="prefs_rail_map_version">MAP_VERSION</string>
+    <string name="prefs_db_install">TAP_DB_INSTALL</string>
+    <string name="prefs_criminal_db_install">CRIMINAL_DB_INSTALL</string>
+    <string name="prefs_device_admin">DEVICE_ADMIN</string>
+    <string name="prefs_device_inspector">INSPECTOR_NAME</string>
+    <string name="prefs_tap_db_exist">TAP_DB_EXIST</string>
+    <string name="prefs_criminal_db_exist">CRIMINAL_DB_EXIST</string>
+    <string name="prefs_tapKey_exist">TAP_KEY_EXIST</string>
+    <string name="prefs_incorrect_login_time">LOGIN_TIME</string>
+    <string name="prefs_login_fail_count">LOGIN_FAIL_COUNT</string>
+    <string name="prefs_gcm_update">GCM_UPDATE</string>
+    <string name="prefs_last_commend">LAST_COMMEND</string>
+    <string name="prefs_server">BASE_SERVER2</string>
+    <string name="prefs_transcation_number">TRANSCATION_NUMBER</string>
+    <string name="prefs_appversion">APP_VERSION</string>
+    <string name="prefs_shift">SHIFT</string>
+    <string name="prefs_shift_card">SHIFT_CARD</string>
+    <string name="prefs_user_status">USER_STATUS</string>
+    <string name="prefs_redundant_time">REDUNDANT_TIME</string>
+    <string name="prefs_conversion_time">CONVERSION_TIME</string>
+    <string name="prefs_logging_enable">LOGGING ENABLE</string>
+    <string name="prefs_scheduler_count">SCHEDULER_COUNT</string>
+    <string name="prefs_jwt_token">JWT_TOKEN</string>
+
+    <!--logging control-->
+
+    <string name="prefs_server_settings">Server Settings</string>
+    <string name="prefs_status_location_update">Location Update</string>
+    <string name="prefs_transactions_upload">Transaction Upload</string>
+    <string name="prefs_inspectors">Inspectors</string>
+    <string name="prefs_performance">Performance</string>
+    <string name="prefs_network">Network</string>
+    <string name="prefs_card_operations">Card Operations</string>
+    <string name="prefs_operator">OPERATOR</string>
+
+
+    <!-- FRAGMENT NAMES -->
+    <string name="frag_route_dialog">Route dialog</string>
+    <string name="frag_scan_dialog">Scan dialog</string>
+
+    <string name="prefs_operation_mode">OPERATION_MODE</string>
+    <string name="pref_service_level">SERVICE_LEVEL</string>
+    <string name="pref_zone_level">Zone Level</string>
+    <string name="prefs_location_service_enable">Location Service</string>
+
+    <string name="prefs_imei_number">IMEI Number</string>
+    <string name="pref_service_level_zone">service level zone</string>
+
+
+</resources>

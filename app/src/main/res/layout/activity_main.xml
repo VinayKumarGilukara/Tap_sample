@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_color_black"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:fitsSystemWindows="true"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent">
+
+       <include
+           android:id="@+id/toolbar1"
+           layout="@layout/actionbar_custom"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"></include>
+
+       <include
+           android:visibility="gone"
+           android:id="@+id/toolbar2"
+           layout="@layout/action_toolbar_2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"></include>
+
+
+       <androidx.drawerlayout.widget.DrawerLayout
+           android:layout_below="@+id/actionbar_custom"
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:app="http://schemas.android.com/apk/res-auto"
+           android:id="@+id/drawer_layout"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:fitsSystemWindows="true"
+           >
+
+           <FrameLayout
+               android:id="@+id/panel_layout"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+           </FrameLayout>
+
+
+           <com.google.android.material.navigation.NavigationView
+               android:id="@+id/navigation"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:layout_gravity="left|start"
+               android:fitsSystemWindows="false"
+               app:itemIconTint="@color/text_color_white"
+               app:itemTextColor="@color/text_color_white"
+               android:background="@color/text_color_black"
+               app:headerLayout="@layout/navigation_header"
+               android:theme="@style/NavigationDrawerStyle"
+               app:menu="@menu/main" />
+       </androidx.drawerlayout.widget.DrawerLayout>
+
+   </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

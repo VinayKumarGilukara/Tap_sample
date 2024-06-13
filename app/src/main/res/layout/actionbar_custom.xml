@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.MaterialToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/material_toolbar"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    app:contentInsetStartWithNavigation="0dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="6">
+        <LinearLayout
+            android:layout_toLeftOf="@+id/material_switch_layout"
+            android:id="@+id/title_layout"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/txt_service_type"
+            android:background="@drawable/text_selection"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/actionbar_opr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="@string/actionbar_opr"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/actionbar_route"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_service_type"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignStart="@id/material_switch_layout"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_marginRight="5dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/material_switch_layout"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/normal"
+                android:id="@+id/textMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/material_switch"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:layout_marginTop="-5dp"
+                style="@style/CustomWidget.MaterialComponents.CompoundButton.Switch" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</com.google.android.material.appbar.MaterialToolbar>
+
+
+
+

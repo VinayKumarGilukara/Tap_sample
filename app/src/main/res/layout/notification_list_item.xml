@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="5dp"
+        android:text="message"
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:padding="5dp"
+        android:text="message"
+        android:id="@+id/txt_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_title"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt_message"
+        android:text="2 mintues ago"
+        android:id="@+id/txt_message_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/txt_message_time"
+        android:background="@drawable/vertical_line"/>
+
+</RelativeLayout>

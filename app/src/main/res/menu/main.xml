@@ -1,0 +1,81 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/action_diagnostic"
+        android:icon="@drawable/ic_content_new"
+        android:orderInCategory="100"
+        android:title="@string/action_diagnostic" />
+    <item
+        android:id="@+id/action_camera"
+        android:icon="@drawable/ic_action_camera"
+        android:orderInCategory="100"
+        android:title="@string/action_camera" />
+    <item
+        android:id="@+id/action_offender"
+        android:icon="@drawable/ic_offender"
+        android:orderInCategory="100"
+        android:title="@string/action_offender" />
+    <!--
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_menu_preferences"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"/>
+
+    <item
+        android:id="@+id/action_help"
+        android:icon="@drawable/ic_action_help"
+        android:orderInCategory="100"
+        android:title="@string/action_help"/>
+
+    -->
+    <item
+        android:id="@+id/action_count"
+        android:icon="@drawable/ic_action_count"
+        android:orderInCategory="100"
+        android:title="@string/action_count" />
+    <item
+        android:id="@+id/action_files"
+        android:icon="@drawable/ic_action_collection"
+        android:orderInCategory="100"
+        android:title="@string/action_files" />
+    <item
+        android:id="@+id/action_inspect"
+        android:icon="@drawable/ic_action_history"
+        android:orderInCategory="100"
+        android:title="@string/action_inspect"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/action_notification"
+        android:icon="@drawable/ic_action_notifications"
+        android:orderInCategory="100"
+        android:title="@string/action_notifications"
+        android:visible="true" />
+    <item
+        android:id="@+id/menu_login_control"
+        android:icon="@drawable/ic_log"
+        android:orderInCategory="100"
+        android:title="@string/logging_control"
+        android:visible="true" />
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/content_backspace"
+        android:orderInCategory="100"
+        android:title="@string/action_logout" />
+    <item
+        android:id="@+id/menu_upload_trasactions"
+        android:icon="@drawable/ic_action_upload"
+        android:orderInCategory="100"
+        android:title="@string/action_upload_transactions"
+        android:visible="false" />
+    <item
+        android:id="@+id/menu_batteryTest"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/action_battery_test"
+        android:visible="false" />
+
+
+</menu>
